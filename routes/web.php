@@ -12,3 +12,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     dd("just about . . . ");
 });
+
+Route::get('/taem', function () {
+   return "team work";
+});
