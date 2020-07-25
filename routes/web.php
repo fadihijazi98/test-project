@@ -16,3 +16,7 @@ Route::get('/about', function () {
 Route::get('/taem', function () {
    return "team work";
 });
+
+Route::get('/toGitHup', function () {
+    return "to githup ...";
+});
