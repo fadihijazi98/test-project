@@ -20,3 +20,4 @@ Route::get('/team', function () {
 Route::get('/toGitHup', function () {
     return "to githup ...";
 });
+Route::resource('/test', 'TestController');
