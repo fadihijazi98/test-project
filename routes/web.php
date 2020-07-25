@@ -13,7 +13,7 @@ Route::get('/about', function () {
     dd("just about . . . ");
 });
 
-Route::get('/taem', function () {
+Route::get('/team', function () {
    return "team work";
 });
 
