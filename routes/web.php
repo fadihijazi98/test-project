@@ -23,3 +23,6 @@ Route::resource('/test', 'TestController');
 Route::get('/testFlowGitTool', function () {
     return 'just test.';
 });
+Route::get("/testPublishFeature", function () {
+    return 'public feature under testing';
+});
