@@ -14,7 +14,12 @@ Route::get('/about', function () {
 });
 
 Route::get('/taem', function () {
-   return "team work";
+    return "team work";
 });
 
 Route::resource('/test', 'TestController');
+
+
+Route::get('/testFlowGitTool', function () {
+    return 'just test.';
+});
